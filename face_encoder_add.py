@@ -7,6 +7,7 @@ import pickle
 import numpy as np
 # Load a sample picture and learn how to recognize it.
 def add_face_encodeding(dir):
+    
     global all_face_encodings
     with open('dataset_faces.dat', 'rb') as f:
         all_face_encodings = pickle.load(f)
